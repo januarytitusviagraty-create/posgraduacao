@@ -1,0 +1,3537 @@
+@import url(https://p.typekit.net/p.css?s=1&k=ejm4knb&ht=tk&f=55345.55346.55347.55348&a=86067215&app=typekit&e=css);
+@font-face {
+    font-family: anth;
+    src: url(https://use.typekit.net/af/dd7b69/000000000000000077529961/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"), url(https://use.typekit.net/af/dd7b69/000000000000000077529961/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"), url(https://use.typekit.net/af/dd7b69/000000000000000077529961/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: anth;
+    src: url(https://use.typekit.net/af/42ffdb/000000000000000077529963/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"), url(https://use.typekit.net/af/42ffdb/000000000000000077529963/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"), url(https://use.typekit.net/af/42ffdb/000000000000000077529963/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: normal
+}
+
+.tk-anth {
+    font-family: anth, sans-serif
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    font: inherit;
+    list-style: none;
+    background: none;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body {
+    text-align: center;
+    background-color: #0d1719;
+    font-family: "Montserrat", sans-serif
+}
+
+body h1,
+body h2 {
+    color: rgba(0, 0, 0, 0);
+    text-transform: uppercase;
+    font-family: "anth", sans-serif;
+    background: linear-gradient(to right, #f4c484, #895f20);
+    -webkit-background-clip: text
+}
+
+body h1 {
+    font-size: 2.3vw;
+    line-height: 1.2;
+    margin-bottom: 1.1vw;
+    letter-spacing: 1.5px
+}
+
+body h2 {
+    line-height: 1.3;
+    font-weight: 500;
+    font-size: 1.3vw;
+    text-align: center;
+    letter-spacing: 1.5px
+}
+
+body h2 strong {
+    font-weight: bold
+}
+
+body p {
+    color: #fff;
+    line-height: 1.3;
+    font-size: .8vw;
+    text-align: justify;
+    letter-spacing: 1.5px
+}
+
+body a {
+    position: relative;
+    display: block;
+    text-decoration: none
+}
+
+body picture {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+body picture img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+body input[type=submit],
+body button {
+    cursor: pointer
+}
+
+body .container {
+    position: relative;
+    margin: 0 auto;
+    width: 80%
+}
+
+body .button {
+    position: relative;
+    width: 100%;
+    color: #0d1719;
+    font-size: 1.1vw;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 30vw;
+    text-transform: uppercase;
+    padding: 1.5vw 1vw 1.3vw 1vw;
+    font-family: "anth", sans-serif;
+    border: 3px #895f20 solid;
+    background: linear-gradient(to right, #f4c484, #895f20);
+    box-shadow: 0px 0px 90px 10px rgba(3, 173, 155, .2);
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+body .button::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 30vw;
+    box-shadow: 0 0 0 0 rgba(244, 196, 132, .8);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+body .button:hover {
+    -webkit-transform: scale(1.07);
+    -moz-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -o-transform: scale(1.07);
+    transform: scale(1.07)
+}
+
+body .button:hover::before {
+    animation: pulseButton .8s
+}
+
+body .button-black {
+    color: #fff;
+    margin-top: .5vw;
+    border: #223b38 3px solid;
+    background-image: linear-gradient(to right, #0d1719, #0d1719)
+}
+
+body .button-green {
+    border: none;
+    color: #fff;
+    text-shadow: 0vw 0vw 5px #000;
+    background-image: linear-gradient(#00f9d3, #01362f)
+}
+
+body .button-green::before {
+    box-shadow: 0 0 0 0 rgba(0, 249, 211, .8)
+}
+
+@keyframes pulseButton {
+    70% {
+        box-shadow: 0 0 0 20px rgba(244, 196, 132, 0)
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(244, 196, 132, 0)
+    }
+}
+
+body .active {
+    opacity: 1 !important;
+    visibility: initial !important;
+    -webkit-transform: translate(0px, 0px) !important;
+    -moz-transform: translate(0px, 0px) !important;
+    -ms-transform: translate(0px, 0px) !important;
+    -o-transform: translate(0px, 0px) !important;
+    transform: translate(0px, 0px) !important
+}
+
+body .ornaments {
+    position: absolute;
+    line-height: 0
+}
+
+body .lines {
+    position: absolute;
+    z-index: -1;
+    width: 1.2vw;
+    height: 42vw
+}
+
+body .lines::before,
+body .lines::after {
+    position: absolute;
+    content: "";
+    left: 0%;
+    width: 1px;
+    height: 100%;
+    background-image: linear-gradient(rgba(244, 196, 132, 0), #f4c484, rgba(244, 196, 132, 0))
+}
+
+body .lines::after {
+    left: initial;
+    right: 0%
+}
+
+header,
+section,
+main,
+footer {
+    position: relative;
+    display: block;
+    width: 100%
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 1.45vw 0vw
+}
+
+header .bg {
+    position: absolute;
+    z-index: 0;
+    top: 0vw;
+    left: 0%;
+    width: 60%;
+    height: 70vw
+}
+
+header .bg::before {
+    position: absolute;
+    content: "";
+    left: 0%;
+    top: -30vw;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at center, #223b38 0%, #223b38 15%, rgba(34, 59, 56, 0) 75%);
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+header .active::before {
+    opacity: 1
+}
+
+header .container {
+    display: flex;
+    gap: 1vw;
+    width: 51.8%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: start
+}
+
+header .container a {
+    z-index: 2;
+    width: 18vw;
+    height: auto;
+    line-height: 0px;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+header .container a img {
+    width: 100%;
+    height: auto
+}
+
+header .container .logo-anhanguera {
+    width: 6vw
+}
+
+.header-politicas-de-privacidade {
+    position: relative
+}
+
+.header-politicas-de-privacidade>a {
+    display: inline-block;
+    position: relative;
+    width: 20vw;
+    height: auto
+}
+
+.header-politicas-de-privacidade>a img {
+    width: 100%;
+    height: auto
+}
+
+main .scroll-lines {
+    position: fixed;
+    z-index: -2;
+    left: 50%;
+    width: 100%;
+    height: 0px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+main .line-30 {
+    top: 30%
+}
+
+main .line-40 {
+    top: 40%
+}
+
+main .line-50 {
+    top: 50%
+}
+
+main .line-60 {
+    top: 60%
+}
+
+main .line-70 {
+    top: 70%
+}
+
+main .banner .container {
+    display: flex;
+    z-index: 2;
+    width: 51.8%;
+    align-items: stretch;
+    justify-content: space-between
+}
+
+main .banner .container div {
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    width: 38%;
+    text-align: left;
+    align-items: start;
+    flex-direction: column
+}
+
+main .banner .container div:first-of-type {
+    padding-top: 7.85vw
+}
+
+main .banner .container div:first-of-type picture {
+    display: none
+}
+
+main .banner .container div:first-of-type picture img {
+    display: none
+}
+
+main .banner .container div:last-of-type {
+    width: 48.65%;
+    margin-right: -6.8%;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .banner .container div h1,
+main .banner .container div h3,
+main .banner .container div p {
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .banner .container div h3,
+main .banner .container div h1 {
+    width: 100%
+}
+
+main .banner .container div h3 {
+    color: #03ad9b;
+    font-size: 1.5vw;
+    margin-bottom: .8vw;
+    letter-spacing: 6.5px
+}
+
+main .banner .container div p {
+    margin-bottom: 1.5vw
+}
+
+main .banner .container div ul {
+    position: relative;
+    display: flex;
+    gap: 3%;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 1.9vw;
+    justify-content: center
+}
+
+main .banner .container div ul::before {
+    position: absolute;
+    content: "";
+    left: 0%;
+    bottom: 0vw;
+    width: 100%;
+    height: .25vw;
+    background: linear-gradient(to right, #f4c484, #895f20);
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .banner .container div ul li {
+    position: relative;
+    display: flex;
+    width: 65%;
+    flex-wrap: wrap;
+    margin-top: 1.7vw;
+    align-items: center;
+    flex-direction: row;
+    justify-content: start;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .banner .container div ul li:first-of-type,
+main .banner .container div ul li:nth-of-type(2) {
+    margin-top: 0px
+}
+
+main .banner .container div ul li:nth-of-type(even) {
+    width: 32%
+}
+
+main .banner .container div ul li i {
+    position: relative;
+    display: block;
+    width: auto;
+    height: auto;
+    line-height: 0
+}
+
+main .banner .container div ul li i img {
+    display: block;
+    width: auto;
+    height: 1vw
+}
+
+main .banner .container div ul li b {
+    color: #f4c484;
+    font-size: .7vw;
+    margin-left: .5vw
+}
+
+main .banner .container div .active::before {
+    opacity: 1
+}
+
+main .banner .container div img {
+    z-index: 1
+}
+
+main .banner .container div button {
+    width: 100%
+}
+
+main .banner .container div .button {
+    z-index: 3;
+    width: 91.5%;
+    margin-left: -0.5vw;
+    margin-top: -1.5vw
+}
+
+main .banner .container div .button-black {
+    margin-top: .5vw
+}
+
+main .banner .ornament-01 {
+    top: 0vw;
+    right: 8%;
+    width: 19vw;
+    height: 0vw
+}
+
+main .pos-graduação {
+    padding-top: 6vw
+}
+
+main .pos-graduação .container {
+    width: 44%
+}
+
+main .pos-graduação .container h2,
+main .pos-graduação .container>h3 {
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .pos-graduação .container h2 {
+    margin-bottom: 3.4vw
+}
+
+main .pos-graduação .container>h3 {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.8vw;
+    color: rgba(0, 0, 0, 0);
+    margin-bottom: 4.7vw;
+    letter-spacing: 1.3px;
+    font-family: "anth", sans-serif;
+    background: linear-gradient(to right, #f4c484, #895f20);
+    -webkit-background-clip: text
+}
+
+main .pos-graduação .container>h3 i {
+    position: absolute;
+    left: 50%;
+    width: 3.45vw;
+    height: 3.45vw;
+    bottom: -4.1vw;
+    line-height: 0px;
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%)
+}
+
+main .pos-graduação .container>h3 i img {
+    position: relative;
+    width: 100%;
+    height: auto
+}
+
+main .pos-graduação .container .diferenciais {
+    position: relative;
+    display: flex;
+    gap: 11%;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    margin-bottom: 5.8vw;
+    justify-content: center
+}
+
+main .pos-graduação .container .diferenciais .bg,
+main .pos-graduação .container .diferenciais .plus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+main .pos-graduação .container .diferenciais .bg img,
+main .pos-graduação .container .diferenciais .plus img {
+    position: relative;
+    width: 100%;
+    height: auto
+}
+
+main .pos-graduação .container .diferenciais .bg {
+    z-index: -1;
+    top: 177%;
+    left: 63.5%;
+    width: 67vw;
+    height: 40vw
+}
+
+main .pos-graduação .container .diferenciais .plus {
+    width: 2vw;
+    height: 2vw;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .pos-graduação .container .diferenciais .plus img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+main .pos-graduação .container .diferenciais div {
+    width: 30%;
+    text-align: center;
+    border-radius: 15px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: 3px #895f20 solid;
+    padding: .75vw .5vw .75vw .5vw;
+    background-image: linear-gradient(to right, #f4c484, #895f20);
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .pos-graduação .container .diferenciais div img {
+    width: 2.6vw;
+    height: auto;
+    margin-bottom: .3vw
+}
+
+main .pos-graduação .container .diferenciais div h3 {
+    color: #0d1719;
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin-bottom: .2vw;
+    text-transform: uppercase
+}
+
+main .pos-graduação .container .diferenciais div p {
+    display: block;
+    width: 90%;
+    color: #0d1719;
+    margin: 0 auto;
+    font-size: .7vw;
+    font-weight: bold;
+    text-align: center
+}
+
+main .pos-graduação .container ul {
+    position: relative;
+    display: block;
+    width: 89%;
+    margin: 0 auto
+}
+
+main .pos-graduação .container ul li {
+    position: relative;
+    min-height: 0vw;
+    border-radius: 15px;
+    margin-bottom: 1.45vw;
+    border: 2px #f4c484 ridge;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-image: linear-gradient(#0d1719, #112022);
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .pos-graduação .container ul li .item {
+    display: flex;
+    width: 100%;
+    gap: 6.5%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch
+}
+
+main .pos-graduação .container ul li .item>i {
+    position: relative;
+    width: 11.2%;
+    height: auto;
+    min-height: 5vw;
+    border-radius: 15px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-image: linear-gradient(#f4c484, #895f20)
+}
+
+main .pos-graduação .container ul li .item>i img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    max-width: 2.5vw;
+    max-height: 2.5vw;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+main .pos-graduação .container ul li .item div {
+    display: flex;
+    width: 76%;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+main .pos-graduação .container ul li .item div h4 {
+    width: 75%;
+    color: #fff;
+    font-size: .8vw;
+    text-align: left;
+    line-height: 1.3;
+    letter-spacing: 1.5px
+}
+
+main .pos-graduação .container ul li .item div button {
+    position: relative;
+    width: 2.2vw;
+    height: 2.2vw;
+    border-radius: 20vw;
+    border: 2px #f4c484 ridge;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .pos-graduação .container ul li .item div button::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 30vw;
+    box-shadow: 0 0 0 0 rgba(244, 196, 132, .8);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .pos-graduação .container ul li .item div button i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+main .pos-graduação .container ul li .item div button i img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 45%;
+    height: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .pos-graduação .container ul li .item div button i img:last-of-type {
+    opacity: 0
+}
+
+main .pos-graduação .container ul li .item div button .minus {
+    display: none
+}
+
+main .pos-graduação .container ul li .item div button:hover {
+    border: 2px #f4c484 solid;
+    background-color: #f4c484;
+    -webkit-transform: scale(1.07);
+    -moz-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -o-transform: scale(1.07);
+    transform: scale(1.07)
+}
+
+main .pos-graduação .container ul li .item div button:hover::before {
+    animation: pulseButton .8s
+}
+
+main .pos-graduação .container ul li .desc {
+    position: absolute;
+    opacity: 0;
+    left: 50%;
+    width: 90%;
+    bottom: 0vw;
+    height: auto;
+    max-height: 0px;
+    overflow: hidden;
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .pos-graduação .container ul li .desc article {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    bottom: 0vw;
+    height: auto;
+    text-align: left;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    font-family: "Montserrat", sans-serif;
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .pos-graduação .container ul li .desc article p,
+main .pos-graduação .container ul li .desc article h4 {
+    font-size: .8vw;
+    text-align: left
+}
+
+main .pos-graduação .container ul li .desc article p {
+    line-height: 1.4;
+    margin-top: .3vw
+}
+
+main .pos-graduação .container ul li .desc article p strong {
+    font-weight: bold
+}
+
+main .pos-graduação .container ul li .desc article p:first-of-type {
+    margin-top: 0vw
+}
+
+main .pos-graduação .container ul li .desc article p b {
+    font-weight: 600
+}
+
+main .pos-graduação .container ul li .desc article h4 {
+    font-weight: 600;
+    margin-top: 1vw
+}
+
+main .pos-graduação .container ul .display-active .item button .plus {
+    display: none
+}
+
+main .pos-graduação .container ul .display-active .item button .minus {
+    display: block
+}
+
+main .pos-graduação .line-01 {
+    left: 25%;
+    top: -2.5vw;
+    transform: rotate(-38deg)
+}
+
+main .pos-graduação .line-01::after {
+    top: 10vw
+}
+
+main .pos-graduação .line-02 {
+    top: -2.5vw;
+    right: 25%;
+    transform: rotate(38deg)
+}
+
+main .pos-graduação .line-02::before {
+    top: 10vw
+}
+
+main .pos-graduação .ornament-01 {
+    top: 9.5vw;
+    left: 0%;
+    width: 18%;
+    opacity: .4
+}
+
+main .pos-graduação .ornament-02 {
+    top: 14vw;
+    right: 0%;
+    width: 17%;
+    opacity: .4
+}
+
+main .pos-graduação>.bg {
+    position: absolute;
+    z-index: -1;
+    top: 8vw;
+    left: 50%;
+    width: 90%;
+    height: auto;
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%)
+}
+
+main .pos-graduação>.bg img {
+    opacity: .4
+}
+
+main .novo-profissional {
+    padding-top: 5.9vw
+}
+
+main .novo-profissional .container {
+    width: 51.8%
+}
+
+main .novo-profissional .container h2,
+main .novo-profissional .container>h3 {
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .novo-profissional .container h2 {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-bottom: 2.8vw
+}
+
+main .novo-profissional .container>h3 {
+    color: #fff;
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-bottom: 2vw;
+    letter-spacing: 1.5px;
+    text-transform: uppercase
+}
+
+main .novo-profissional .container ul {
+    position: relative;
+    display: flex;
+    gap: 3.2%;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center
+}
+
+main .novo-profissional .container ul li {
+    display: flex;
+    width: 46.5%;
+    text-align: left;
+    margin-top: .8vw;
+    min-height: 2.77vw;
+    align-items: center;
+    padding: .2vw 1.5vw;
+    border: 2px #f4c484 ridge;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .novo-profissional .container ul li:first-of-type,
+main .novo-profissional .container ul li:nth-of-type(2) {
+    margin-top: 0vw
+}
+
+main .novo-profissional .container ul li:nth-of-type(odd) {
+    border-bottom-left-radius: 20px;
+    background-image: linear-gradient(to right, #895f20, #f4c484)
+}
+
+main .novo-profissional .container ul li:nth-of-type(even) {
+    border-bottom-right-radius: 20px;
+    background-image: linear-gradient(to right, #f4c484, #895f20)
+}
+
+main .novo-profissional .container ul li h4 {
+    line-height: 1;
+    font-size: .9vw;
+    font-weight: 600
+}
+
+main .novo-profissional .line-01 {
+    left: 25%;
+    top: -13vw;
+    transform: rotate(38deg)
+}
+
+main .novo-profissional .line-01::after {
+    top: 10vw
+}
+
+main .novo-profissional .line-02 {
+    top: -13vw;
+    right: 25%;
+    transform: rotate(-38deg)
+}
+
+main .novo-profissional .line-02::before {
+    top: 10vw
+}
+
+main .efeitos {
+    padding-top: 5.2vw;
+    padding-bottom: 6.5vw
+}
+
+main .efeitos::before {
+    position: absolute;
+    content: "";
+    z-index: 0;
+    top: 0vw;
+    left: 50%;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50vw;
+    background: radial-gradient(circle at center, #223b38 0%, #223b38 15%, rgba(34, 59, 56, 0) 70%);
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%)
+}
+
+main .efeitos .container {
+    width: 51.8%
+}
+
+main .efeitos .container h2,
+main .efeitos .container ul {
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .efeitos .container h2 {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-bottom: 2.9vw
+}
+
+main .efeitos .container ul {
+    position: relative;
+    display: block
+}
+
+main .efeitos .container ul::before {
+    position: absolute;
+    content: "";
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 90%;
+    background-color: #03ad9b;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+main .efeitos .container ul li {
+    position: relative;
+    display: flex;
+    gap: 2.2%;
+    flex-wrap: wrap;
+    margin-top: 3.15vw;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center
+}
+
+main .efeitos .container ul li:first-of-type {
+    margin-top: 0vw
+}
+
+main .efeitos .container ul li div {
+    width: 23%
+}
+
+main .efeitos .container ul li div:first-of-type {
+    text-align: right
+}
+
+main .efeitos .container ul li div:last-of-type {
+    text-align: left
+}
+
+main .efeitos .container ul li div h3 {
+    color: #fff;
+    font-size: .9vw
+}
+
+main .efeitos .container ul li i {
+    display: flex;
+    width: 1.8vw;
+    height: 1.8vw;
+    font-size: 1.3vw;
+    font-weight: bold;
+    padding-top: .2vw;
+    border-radius: 30vw;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "anth", sans-serif;
+    box-shadow: 25px 30px 20px rgba(0, 0, 0, .4);
+    background-image: linear-gradient(to right, #895f20, #f4c484)
+}
+
+main .efeitos .ornament-01 {
+    top: -9vw;
+    right: 0%;
+    width: 11vw;
+    opacity: .4
+}
+
+main .efeitos .bg {
+    position: absolute;
+    z-index: -1;
+    left: 0%;
+    top: -7.6vw
+}
+
+main .pos-aprofundada {
+    padding: 2vw 0vw 1.1vw 0vw;
+    background-image: linear-gradient(to right, #895f20, #f4c484)
+}
+
+main .pos-aprofundada .container {
+    width: 51.8%
+}
+
+main .pos-aprofundada .container h3 {
+    color: #0d1719;
+    line-height: 1.1;
+    font-size: 1.7vw;
+    font-weight: bold;
+    text-align: justify;
+    text-align-last: center;
+    font-family: "anth", sans-serif
+}
+
+main .modulos,
+main .faq {
+    padding-top: 5.6vw
+}
+
+main .modulos>i,
+main .faq>i {
+    position: absolute;
+    top: 1vw;
+    left: 50%;
+    width: 3.5vw;
+    height: auto;
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%)
+}
+
+main .modulos>i img,
+main .faq>i img {
+    width: 100%;
+    height: auto
+}
+
+main .modulos .container,
+main .faq .container {
+    z-index: 2;
+    width: 52.5%
+}
+
+main .modulos .container ul,
+main .faq .container ul {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 3.6vw
+}
+
+main .modulos .container ul li,
+main .faq .container ul li {
+    position: relative;
+    height: auto;
+    color: #fff;
+    min-height: 0px;
+    margin-top: 2vw;
+    font-size: 1.1vw;
+    letter-spacing: .6px;
+    border: 2px #f4c484 ridge;
+    font-family: "anth", sans-serif;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .modulos .container ul li .item,
+main .faq .container ul li .item {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+main .modulos .container ul li .item h3,
+main .faq .container ul li .item h3 {
+    padding: 1.34vw 0px
+}
+
+main .modulos .container ul li .item h3>b,
+main .faq .container ul li .item h3>b {
+    font-size: 1.2vw;
+    color: #c98c3a;
+    letter-spacing: 1.8px;
+    text-transform: uppercase
+}
+
+main .modulos .container ul li .item button,
+main .faq .container ul li .item button {
+    position: relative;
+    display: block;
+    width: 2.2vw;
+    height: 2.2vw;
+    border-radius: 30vw;
+    border: 2px #f4c484 ridge;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .modulos .container ul li .item button::before,
+main .faq .container ul li .item button::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 30vw;
+    box-shadow: 0 0 0 0 rgba(244, 196, 132, .8);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .modulos .container ul li .item button:hover,
+main .faq .container ul li .item button:hover {
+    border: 2px #f4c484 solid;
+    background-color: #f4c484;
+    -webkit-transform: scale(1.07);
+    -moz-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -o-transform: scale(1.07);
+    transform: scale(1.07)
+}
+
+main .modulos .container ul li .item button:hover::before,
+main .faq .container ul li .item button:hover::before {
+    animation: pulseButton .8s
+}
+
+main .modulos .container ul li .item button:hover i img,
+main .faq .container ul li .item button:hover i img {
+    opacity: 0
+}
+
+main .modulos .container ul li .item button:hover i img:last-of-type,
+main .faq .container ul li .item button:hover i img:last-of-type {
+    opacity: 1
+}
+
+main .modulos .container ul li .item button i,
+main .faq .container ul li .item button i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+main .modulos .container ul li .item button i img,
+main .faq .container ul li .item button i img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 45%;
+    height: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .modulos .container ul li .item button i img:last-of-type,
+main .faq .container ul li .item button i img:last-of-type {
+    opacity: 0
+}
+
+main .modulos .container ul li .item button .minus,
+main .faq .container ul li .item button .minus {
+    display: none
+}
+
+main .modulos .container ul li .desc,
+main .faq .container ul li .desc {
+    position: absolute;
+    opacity: 0;
+    left: 50%;
+    width: 95%;
+    bottom: 0vw;
+    height: auto;
+    max-height: 0px;
+    overflow: hidden;
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .modulos .container ul li .desc article,
+main .faq .container ul li .desc article {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    bottom: 0vw;
+    height: auto;
+    text-align: left;
+    padding-bottom: 1.5vw;
+    font-family: "Montserrat", sans-serif;
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .modulos .container ul li .desc article p,
+main .modulos .container ul li .desc article h4,
+main .faq .container ul li .desc article p,
+main .faq .container ul li .desc article h4 {
+    font-size: .8vw;
+    text-align: left
+}
+
+main .modulos .container ul li .desc article p,
+main .faq .container ul li .desc article p {
+    line-height: 1.4;
+    margin-top: .3vw
+}
+
+main .modulos .container ul li .desc article p:first-of-type,
+main .faq .container ul li .desc article p:first-of-type {
+    margin-top: 0vw
+}
+
+main .modulos .container ul li .desc article p b,
+main .faq .container ul li .desc article p b {
+    font-weight: 600
+}
+
+main .modulos .container ul li .desc article h4,
+main .faq .container ul li .desc article h4 {
+    font-weight: 600;
+    margin-top: 1vw
+}
+
+main .modulos .container ul li:first-of-type,
+main .faq .container ul li:first-of-type {
+    margin-top: 0vw
+}
+
+main .modulos .container ul .display-active .item button .plus,
+main .faq .container ul .display-active .item button .plus {
+    display: none
+}
+
+main .modulos .container ul .display-active .item button .minus,
+main .faq .container ul .display-active .item button .minus {
+    display: block
+}
+
+main .modulos .container>div,
+main .faq .container>div {
+    position: relative;
+    display: flex;
+    gap: 1.5vw;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+
+main .modulos .container>div .button,
+main .faq .container>div .button {
+    width: auto;
+    font-size: 1.1vw;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding: 1.4vw 4vw 1.2vw 4vw
+}
+
+main .modulos .container>div .button-black,
+main .faq .container>div .button-black {
+    padding: 1.4vw 2vw 1.2vw 2vw
+}
+
+main .modulos .circles,
+main .faq .circles {
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    width: 85vw;
+    height: 85vw
+}
+
+main .modulos .circles::before,
+main .faq .circles::before {
+    position: absolute;
+    content: "";
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50vw;
+    background: radial-gradient(circle at center, #223b38 0%, #223b38 25%, rgba(34, 59, 56, 0) 70%)
+}
+
+main .modulos .circle-01,
+main .faq .circle-01 {
+    top: 0vw;
+    left: 0%
+}
+
+main .modulos .circle-01::before,
+main .faq .circle-01::before {
+    top: -20vw;
+    left: -70%
+}
+
+main .modulos .circle-02,
+main .faq .circle-02 {
+    top: 5vw;
+    right: 0%;
+    width: 90vw;
+    height: 90vw
+}
+
+main .modulos .circle-02::before,
+main .faq .circle-02::before {
+    top: 0vw;
+    right: -70%;
+    background: radial-gradient(circle at center, #223b38 0%, #223b38 20%, rgba(34, 59, 56, 0) 65%)
+}
+
+main .modulos .ornament-01,
+main .faq .ornament-01 {
+    top: 45vw;
+    left: 0%;
+    width: 12%;
+    opacity: .4
+}
+
+main .faq {
+    padding-top: 4vw
+}
+
+main .faq .container h2 {
+    font-size: 3.8vw;
+    color: rgba(0, 0, 0, 0);
+    margin-bottom: 2vw;
+    text-transform: uppercase;
+    font-family: "anth", sans-serif;
+    background: linear-gradient(to right, #f4c484, #895f20);
+    -webkit-background-clip: text
+}
+
+main .faq .container ul li {
+    margin-top: 1vw;
+    border: 2px #f8b153 ridge
+}
+
+main .faq .container ul li .item h3 {
+    color: #f8b153
+}
+
+main .faq .container ul li .item button {
+    border: 2px #f8b153 ridge
+}
+
+main .faq .container ul li .item button:hover {
+    background-color: #f8b153;
+    border: 2px #f8b153 solid
+}
+
+main .faq .ornament-01 {
+    top: 15vw
+}
+
+main .equipe {
+    padding-top: 8.5vw
+}
+
+main .equipe .container {
+    z-index: 2;
+    width: 52.5%
+}
+
+main .equipe .container h2 {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.7vw;
+    font-weight: bold;
+    margin-bottom: .55vw
+}
+
+main .equipe .container h3 {
+    color: #fff;
+    font-size: .9vw;
+    font-weight: normal;
+    margin-bottom: .9vw;
+    letter-spacing: .5px;
+    text-transform: uppercase
+}
+
+main .equipe .container ul {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: .55vw;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center
+}
+
+main .equipe .container ul:first-of-type {
+    margin-top: 0vw
+}
+
+main .equipe .container ul:nth-of-type(2) {
+    margin-left: -2%
+}
+
+main .equipe .container ul:nth-of-type(3) {
+    margin-left: -4%
+}
+
+main .equipe .container ul:nth-of-type(4) {
+    margin-left: -6%
+}
+
+main .equipe .container ul li {
+    position: relative;
+    display: block;
+    width: 13.7%;
+    margin-left: -0.2%;
+    margin-right: -0.2%
+}
+
+main .equipe .container ul li::before {
+    position: absolute;
+    content: "";
+    z-index: 1;
+    left: 1%;
+    height: 50%;
+    width: 89.8%;
+    bottom: .2vw;
+    transform: rotate(1deg);
+    background-image: linear-gradient(rgba(13, 23, 25, 0), #0d1719);
+    clip-path: polygon(6% 0%, 100% 0%, 95% 97%, 0% 100%)
+}
+
+main .equipe .container ul li img {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: auto;
+    filter: saturate(0.8)
+}
+
+main .equipe .container ul li h4 {
+    position: absolute;
+    display: block;
+    z-index: 1;
+    left: 45%;
+    width: 80%;
+    bottom: 1vw;
+    color: #fff;
+    font-size: .6vw;
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%)
+}
+
+main .equipe .container .responsive {
+    display: none
+}
+
+main .equipe .lines {
+    height: 32vw
+}
+
+main .equipe .line-01 {
+    left: 25%;
+    top: -12vw;
+    transform: rotate(38deg)
+}
+
+main .equipe .line-01::after {
+    top: 2vw;
+    height: 110%
+}
+
+main .equipe .line-02 {
+    top: -12vw;
+    right: 25%;
+    transform: rotate(-38deg)
+}
+
+main .equipe .line-02::before {
+    top: 2vw;
+    height: 110%
+}
+
+main .equipe .bg {
+    position: absolute;
+    z-index: -1;
+    left: 46.9%;
+    width: 88.8%;
+    bottom: 4.6vw;
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%)
+}
+
+main .bonus {
+    margin-top: 8.5vw;
+    background-image: linear-gradient(#0d1719, #111111, #0d1719)
+}
+
+main .bonus .container {
+    z-index: 2
+}
+
+main .bonus .container h2 {
+    position: relative;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 1.8vw;
+    margin-bottom: 4vw
+}
+
+main .bonus .container article {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 6vw
+}
+
+main .bonus .container article:last-of-type {
+    margin-bottom: 0vw
+}
+
+main .bonus .container article i {
+    display: block;
+    width: 4.5vw;
+    height: auto;
+    line-height: 0;
+    margin: 0 auto;
+    margin-bottom: 4vw
+}
+
+main .bonus .container article i img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+main .bonus .container article .desc {
+    position: relative;
+    display: flex;
+    gap: 3%;
+    width: 70%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-bottom: 8vw;
+    align-items: start;
+    flex-direction: row;
+    justify-content: center
+}
+
+main .bonus .container article .desc div img {
+    position: relative;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: .5vw
+}
+
+main .bonus .container article .desc div h3,
+main .bonus .container article .desc div h4 {
+    line-height: 1.4;
+    font-family: "ant", serif
+}
+
+main .bonus .container article .desc div h3 {
+    font-size: 1.3vw;
+    text-align: left;
+    color: rgba(0, 0, 0, 0);
+    margin-bottom: 1.5vw;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #f4c484, #895f20);
+    -webkit-background-clip: text;
+    background-clip: text
+}
+
+main .bonus .container article .desc div h4 {
+    color: #fff;
+    font-size: 1.1vw;
+    text-align: center;
+    text-transform: uppercase
+}
+
+main .bonus .container article .desc div h4 strong {
+    position: relative;
+    display: block;
+    line-height: 1;
+    font-size: 2.8vw;
+    letter-spacing: 2px;
+    text-transform: initial
+}
+
+main .bonus .container article .desc div p {
+    margin-top: 1vw;
+    font-size: .8vw;
+    line-height: 1.4
+}
+
+main .bonus .container article .desc div p:first-of-type {
+    margin-top: 0vw
+}
+
+main .bonus .container article .desc div:first-of-type {
+    width: 50%
+}
+
+main .bonus .container article .desc div:last-of-type {
+    width: 47%
+}
+
+main .bonus .container article .list {
+    position: relative;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 1vw;
+    padding: 7vw 4vw 3vw 4vw;
+    background-image: linear-gradient(#1a2c29, #000000)
+}
+
+main .bonus .container article .list .down {
+    position: relative;
+    display: block;
+    width: 8vw;
+    height: 8vw;
+    margin: 0 auto;
+    margin-top: -12vw;
+    margin-bottom: 3vw;
+    border-radius: 30vw;
+    border: #0d1719 .8vw solid;
+    background-image: linear-gradient(#35250d, #b96403)
+}
+
+main .bonus .container article .list .down img {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    height: auto;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+main .bonus .container article .list div {
+    position: relative;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    text-align: left
+}
+
+main .bonus .container article .list div h3 {
+    display: inline-block;
+    position: relative;
+    font-size: .9vw;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0);
+    margin-bottom: 0vw;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #f4c484, #895f20);
+    -webkit-background-clip: text;
+    background-clip: text
+}
+
+main .bonus .container article .list div h3 b {
+    text-transform: initial
+}
+
+main .bonus .container article .list div button {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    width: 1vw;
+    height: 1vw;
+    line-height: 0;
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%)
+}
+
+main .bonus .container article .list div button img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+main .bonus .container article .list ul {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-top: .5vw
+}
+
+main .bonus .container article .list ul li {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 1.5vw 0vw;
+    border-bottom: hsla(0, 0%, 100%, .6) thin solid
+}
+
+main .bonus .container article .list ul li p {
+    position: relative;
+    display: block;
+    color: #fff;
+    width: 100%;
+    line-height: 1.3;
+    font-size: .8vw
+}
+
+main .valor {
+    padding-top: 5.4vw
+}
+
+main .valor .container {
+    z-index: 2;
+    width: 52.5%
+}
+
+main .valor .container h2,
+main .valor .container>h3 {
+    margin: 0 auto
+}
+
+main .valor .container h2 {
+    width: 70%;
+    font-size: 1.95vw;
+    font-weight: bold;
+    margin-bottom: 2.25vw
+}
+
+main .valor .container>h3 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0);
+    text-align: center;
+    margin-bottom: 2vw;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "anth", sans-serif;
+    background: linear-gradient(to right, #f4c484, #895f20);
+    -webkit-background-clip: text
+}
+
+main .valor .container>h3 strong {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    font-size: 1.8vw;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center
+}
+
+main .valor .container>h3 strong b,
+main .valor .container>h3 strong span {
+    display: flex;
+    align-items: end
+}
+
+main .valor .container>h3 strong b {
+    font-size: 5.8vw
+}
+
+main .valor .container>h3 strong span {
+    padding-bottom: 1vw
+}
+
+main .valor .container>h3>b {
+    display: block;
+    letter-spacing: 3px
+}
+
+main .valor .container>h3::before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    top: 30%;
+    left: 50%;
+    width: 80%;
+    height: 0px;
+    border-radius: 50vw;
+    box-shadow: 0px 0px 90px 10px rgba(3, 173, 155, .3);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+main .valor .container>ul {
+    position: relative;
+    display: flex;
+    gap: .8vw;
+    width: 55%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    min-height: 6.25vw;
+    padding: 1.5vw 1vw;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 2.7vw;
+    justify-content: center;
+    border: 2px #f4c484 ridge;
+    background-color: #13191a;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px
+}
+
+main .valor .container>ul li {
+    position: relative;
+    display: flex;
+    gap: 7%;
+    width: 50%;
+    flex-wrap: wrap;
+    margin-top: 0vw;
+    align-items: center;
+    flex-direction: row;
+    justify-content: start
+}
+
+main .valor .container>ul li:first-of-type,
+main .valor .container>ul li:nth-of-type(2) {
+    margin-top: 0px
+}
+
+main .valor .container>ul li:nth-of-type(even) {
+    width: 40%
+}
+
+main .valor .container>ul li i {
+    position: relative;
+    display: block;
+    width: auto;
+    height: auto;
+    line-height: 0
+}
+
+main .valor .container>ul li i img {
+    display: block;
+    width: auto;
+    height: 1.3vw
+}
+
+main .valor .container>ul li b {
+    width: 75%;
+    color: #f4c484;
+    font-size: .8vw;
+    text-align: left
+}
+
+main .valor .container .metodo-ads {
+    position: relative;
+    display: flex;
+    gap: 1.5vw;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 2.5vw;
+    flex-direction: column;
+    justify-content: start
+}
+
+main .valor .container .metodo-ads h3,
+main .valor .container .metodo-ads h4 {
+    position: relative;
+    display: block;
+    width: 50%;
+    color: #fff;
+    font-size: 1vw;
+    text-align: center
+}
+
+main .valor .container .metodo-ads h4 {
+    width: 100%;
+    color: #f4c484;
+    font-weight: bold
+}
+
+main .valor .container .metodo-ads div {
+    position: relative;
+    display: flex;
+    gap: 1vw;
+    width: 45%;
+    padding: 1.5vw;
+    align-items: center;
+    justify-items: start;
+    flex-direction: column;
+    border: 2px #f4c484 ridge;
+    background-color: #13191a;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px
+}
+
+main .valor .container .metodo-ads div ul {
+    position: relative;
+    display: flex;
+    gap: .5vw;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start
+}
+
+main .valor .container .metodo-ads div ul li {
+    position: relative;
+    display: flex;
+    gap: 5%;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center
+}
+
+main .valor .container .metodo-ads div ul li i {
+    position: relative;
+    display: block;
+    width: .5vw;
+    height: .5vw;
+    border-radius: 30vw;
+    background-color: #f4c484
+}
+
+main .valor .container .metodo-ads div ul li p {
+    width: 58%;
+    color: #f4c484;
+    text-align: left;
+    font-size: .8vw
+}
+
+main .valor .container .valores {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 2.5vw
+}
+
+main .valor .container .valores ul {
+    position: relative;
+    display: flex;
+    gap: 3%;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center
+}
+
+main .valor .container .valores ul li {
+    position: relative;
+    display: flex;
+    gap: 1.5vw;
+    width: 31.3%;
+    border-radius: 8px;
+    align-items: center;
+    padding-bottom: 1.5vw;
+    flex-direction: column;
+    justify-content: start;
+    background-color: #fff
+}
+
+main .valor .container .valores ul li .title {
+    position: relative;
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 1.3vw .5vw 1vw .5vw;
+    border-bottom: #fec581 thin solid;
+    background-image: linear-gradient(to right, #FFFFFF, #E5E5E5)
+}
+
+main .valor .container .valores ul li .title h3 {
+    position: relative;
+    display: block;
+    width: 100%;
+    line-height: 1.3;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0);
+    text-transform: uppercase;
+    font-family: "anth", sans-serif;
+    background: linear-gradient(to right, #f4c484, #895f20);
+    -webkit-background-clip: text
+}
+
+main .valor .container .valores ul li .desc {
+    position: relative;
+    display: flex;
+    gap: 1vw;
+    width: 90%;
+    color: #163a32;
+    align-items: center;
+    padding-bottom: 1.5vw;
+    flex-direction: column;
+    justify-content: center
+}
+
+main .valor .container .valores ul li .desc::before {
+    position: absolute;
+    content: "";
+    left: 0%;
+    width: 100%;
+    height: 2px;
+    bottom: 0vw;
+    background: linear-gradient(to right, #f4c484, #895f20)
+}
+
+main .valor .container .valores ul li .desc h4,
+main .valor .container .valores ul li .desc h5 {
+    position: relative;
+    display: block;
+    width: 100%;
+    font-family: "anth", sans-serif
+}
+
+main .valor .container .valores ul li .desc h4 {
+    font-size: 1vw
+}
+
+main .valor .container .valores ul li .desc h4 b {
+    font-weight: bold;
+    font-size: 1.3vw;
+    text-decoration: line-through
+}
+
+main .valor .container .valores ul li .desc h5 {
+    font-size: 1vw;
+    font-weight: 600;
+    line-height: 1.1
+}
+
+main .valor .container .valores ul li .desc h5 strong {
+    position: relative;
+    display: block;
+    width: 100%;
+    font-size: 3.5vw;
+    font-weight: 900
+}
+
+main .valor .container .valores ul li .desc h5 strong b {
+    font-size: 1.5vw
+}
+
+main .valor .container .valores ul li a {
+    position: relative;
+    display: block;
+    width: 90%;
+    color: #fff;
+    font-size: 1.1vw;
+    font-weight: bold;
+    padding: 1.2vw 0vw;
+    border-radius: 50vw;
+    font-family: "anth", sans-serif;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, .7);
+    box-shadow: 0vw .2vw .6vw .2vw rgba(150, 96, 18, .6);
+    background-image: linear-gradient(to right, #f4c484, #895f20);
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .valor .container .valores ul li a::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 30vw;
+    box-shadow: 0 0 0 0 rgba(244, 196, 132, .8);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out
+}
+
+main .valor .container .valores ul li a:hover {
+    -webkit-transform: scale(1.07);
+    -moz-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -o-transform: scale(1.07);
+    transform: scale(1.07)
+}
+
+main .valor .container .valores ul li a:hover::before {
+    animation: pulseButton .8s
+}
+
+main .valor .container .valores ul li:nth-of-type(2) {
+    background-color: #a36d20
+}
+
+main .valor .container .valores ul li:nth-of-type(2) .title {
+    background-image: linear-gradient(#f4c484, #895f20)
+}
+
+main .valor .container .valores ul li:nth-of-type(2) .title h3 {
+    color: #fff
+}
+
+main .valor .container .valores ul li:nth-of-type(2) .desc {
+    color: #fff
+}
+
+main .valor .container .valores ul li:nth-of-type(2) a {
+    box-shadow: 0px 8px 20px 2px rgba(17, 65, 60, .7);
+    background-image: linear-gradient(#03AD9B, #142321)
+}
+
+main .valor .container .valores ul li:nth-of-type(2) a::before {
+    box-shadow: 0 0 0 0 rgba(3, 173, 155, .8)
+}
+
+main .valor .container .button {
+    width: 58%;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 1.55vw;
+    letter-spacing: 1.5px;
+    padding: 1.4vw 1vw 1.2vw 1vw
+}
+
+main .valor .circles {
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    width: 85vw;
+    height: 85vw
+}
+
+main .valor .circles::before {
+    position: absolute;
+    content: "";
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50vw;
+    background: radial-gradient(circle at center, #223b38 0%, #223b38 25%, rgba(34, 59, 56, 0) 70%)
+}
+
+main .valor .circle-01 {
+    top: -15vw;
+    left: 0%
+}
+
+main .valor .circle-01::before {
+    top: 4vw;
+    left: -70%
+}
+
+main .valor .lines {
+    z-index: 1
+}
+
+main .valor .line-01 {
+    left: 23%;
+    top: -16vw;
+    transform: rotate(-38deg)
+}
+
+main .valor .line-01::after {
+    top: 3vw
+}
+
+main .valor .line-02 {
+    top: -16vw;
+    right: 23%;
+    transform: rotate(38deg)
+}
+
+main .valor .line-02::before {
+    top: 3vw
+}
+
+main .pre-requisitos {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-top: 4vw
+}
+
+main .pre-requisitos .container {
+    z-index: 2;
+    width: 52.5%
+}
+
+main .pre-requisitos .container p {
+    position: relative;
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    font-size: .6vw;
+    text-align-last: center
+}
+
+main .pre-requisitos .container p b {
+    display: block;
+    font-size: .7vw;
+    font-weight: bold
+}
+
+main .politicas-de-privacidade {
+    padding-top: 3vw;
+    padding-bottom: 3vw
+}
+
+main .politicas-de-privacidade .container {
+    display: flex;
+    width: 60%;
+    gap: 2.5vw;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center
+}
+
+main .politicas-de-privacidade .container h1,
+main .politicas-de-privacidade .container h2,
+main .politicas-de-privacidade .container h3,
+main .politicas-de-privacidade .container p {
+    position: relative;
+    display: block;
+    width: 100%;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 0vw;
+    text-transform: initial;
+    font-family: "Montserrat", sans-serif
+}
+
+main .politicas-de-privacidade .container h1,
+main .politicas-de-privacidade .container h2,
+main .politicas-de-privacidade .container h3 {
+    font-weight: bold
+}
+
+main .politicas-de-privacidade .container h1 {
+    font-size: 1.8vw
+}
+
+main .politicas-de-privacidade .container h2 {
+    font-size: 1.3vw
+}
+
+main .politicas-de-privacidade .container h3 {
+    font-size: 1.1vw
+}
+
+main .politicas-de-privacidade .container p {
+    font-size: 1vw;
+    text-align: justify
+}
+
+main .politicas-de-privacidade .container p em {
+    font-weight: bold
+}
+
+main .politicas-de-privacidade .container>div {
+    position: relative;
+    display: flex;
+    width: 100%;
+    gap: 1vw;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center
+}
+
+main .politicas-de-privacidade .container .table {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: center;
+    border: #fff thin solid
+}
+
+main .politicas-de-privacidade .container .table div {
+    display: flex;
+    gap: 1vw;
+    width: 33.33%;
+    padding: 1.5vw;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    border: #fff thin solid
+}
+
+main .politicas-de-privacidade .container .table div p {
+    font-size: .8vw
+}
+
+main .politicas-de-privacidade .container .list {
+    position: relative;
+    display: flex;
+    gap: 1.5vw;
+    margin-top: 1vw;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center
+}
+
+main .politicas-de-privacidade .container .list li {
+    position: relative;
+    display: flex;
+    width: 100%;
+    gap: .5vw;
+    color: #fff;
+    padding-left: 1vw;
+    align-items: start;
+    flex-direction: row;
+    justify-content: start
+}
+
+main .politicas-de-privacidade .container .list li i {
+    position: relative;
+    display: block;
+    width: 2vw;
+    height: auto;
+    font-size: 1.1vw;
+    font-weight: bold
+}
+
+footer {
+    padding-top: 2vw;
+    padding-bottom: 3.5vw
+}
+
+footer .patrocinadores {
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin-bottom: 5.5vw
+}
+
+footer .patrocinadores .container h2 {
+    position: relative;
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-size: 1.3vw;
+    margin-bottom: 1.5vw;
+    text-transform: initial;
+    font-family: "Montserrat", sans-serif
+}
+
+footer .patrocinadores .container div {
+    position: relative;
+    display: flex;
+    gap: 3vw;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center
+}
+
+footer .patrocinadores .container div a {
+    position: relative;
+    display: block;
+    width: auto;
+    height: auto
+}
+
+footer .patrocinadores .container div a img {
+    width: auto;
+    height: auto;
+    max-height: 3vw
+}
+
+footer .copyright {
+    position: relative;
+    display: block;
+    z-index: 2;
+    margin-top: 2.5vw
+}
+
+footer .copyright .container {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+footer .copyright .container small,
+footer .copyright .container a {
+    position: relative;
+    display: block;
+    color: #fff
+}
+
+footer .copyright .container small {
+    font-size: .9vw;
+    font-weight: normal
+}
+
+footer .copyright .container a {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1vw
+}
+
+footer>.container {
+    display: flex;
+    gap: 4%;
+    z-index: 2;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center
+}
+
+footer>.container::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    width: 3px;
+    height: 100%;
+    background-color: #f4c484;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+footer>.container p {
+    display: flex;
+    width: 48%;
+    justify-content: end
+}
+
+footer>.container p img {
+    width: auto;
+    height: 5vw;
+    min-height: 80px
+}
+
+footer>.container p:last-of-type {
+    justify-content: start
+}
+
+footer .circles {
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    width: 85vw;
+    height: 85vw
+}
+
+footer .circles::before {
+    position: absolute;
+    content: "";
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50vw;
+    background: radial-gradient(circle at center, #223b38 0%, #223b38 25%, rgba(34, 59, 56, 0) 70%)
+}
+
+footer .circle-01 {
+    top: initial;
+    left: 0%;
+    bottom: 0vw
+}
+
+footer .circle-01::before {
+    top: 40vw;
+    left: -55%
+}
+
+@media screen and (max-width: 800px) {
+    body h1 {
+        font-size: 32px;
+        margin-bottom: 15px
+    }
+    body h2 {
+        font-size: 18px
+    }
+    body .container {
+        width: 80%;
+        min-width: 280px
+    }
+    body .button {
+        font-size: 18px;
+        line-height: 1.4;
+        padding: 23px 10px 20px 10px
+    }
+    body .ornaments,
+    body .lines {
+        display: none
+    }
+    header {
+        padding: 20px 0px
+    }
+    header .container {
+        gap: 15px;
+        width: 80%
+    }
+    header .container .logo {
+        width: 250px
+    }
+    header .container .logo-anhanguera {
+        width: 70px
+    }
+    .header-politicas-de-privacidade>a {
+        width: 300px
+    }
+    main .banner .container {
+        width: 80%
+    }
+    main .banner .container div {
+        width: 45%
+    }
+    main .banner .container div:first-of-type {
+        padding-top: 120px
+    }
+    main .banner .container div:last-of-type {
+        width: 55%
+    }
+    main .banner .container div h3 {
+        font-size: 18px;
+        margin-bottom: 10px
+    }
+    main .banner .container div p {
+        font-size: 13px;
+        margin-bottom: 30px
+    }
+    main .banner .container div ul {
+        padding-bottom: 30px
+    }
+    main .banner .container div ul li {
+        width: 100%;
+        margin-top: 10px
+    }
+    main .banner .container div ul li:first-of-type {
+        margin-top: 0px
+    }
+    main .banner .container div ul li:nth-of-type(2) {
+        margin-top: 10px
+    }
+    main .banner .container div ul li:nth-of-type(even) {
+        width: 100%
+    }
+    main .banner .container div ul li i img {
+        height: 25px
+    }
+    main .banner .container div ul li b {
+        font-size: 11px;
+        margin-left: 10px
+    }
+    main .banner .container div .button {
+        margin-top: -30px
+    }
+    main .banner .container div .button-black {
+        margin-top: 10px
+    }
+    main .pos-graduação {
+        padding-top: 60px
+    }
+    main .pos-graduação .container {
+        width: 80%
+    }
+    main .pos-graduação .container h2 {
+        margin-bottom: 30px
+    }
+    main .pos-graduação .container h3 {
+        font-size: 21px;
+        margin-bottom: 70px
+    }
+    main .pos-graduação .container h3 i {
+        width: 50px;
+        height: 50px;
+        bottom: -60px
+    }
+    main .pos-graduação .container .diferenciais {
+        gap: 14%;
+        margin-bottom: 60px
+    }
+    main .pos-graduação .container .diferenciais div {
+        width: 43%;
+        padding: 15px 10px 15px 10px
+    }
+    main .pos-graduação .container .diferenciais div img {
+        width: 50px;
+        margin-bottom: 5px
+    }
+    main .pos-graduação .container .diferenciais div h3 {
+        font-size: 15px;
+        margin-bottom: 2px
+    }
+    main .pos-graduação .container .diferenciais div p {
+        width: 100%;
+        font-size: 11px
+    }
+    main .pos-graduação .container .diferenciais .plus {
+        width: 30px;
+        height: 30px
+    }
+    main .pos-graduação .container ul li {
+        gap: 4%;
+        margin-bottom: 20px
+    }
+    main .pos-graduação .container ul li:last-of-type {
+        margin-bottom: 0px
+    }
+    main .pos-graduação .container ul li .item {
+        gap: 4%
+    }
+    main .pos-graduação .container ul li .item i {
+        width: 21%;
+        min-height: 60px
+    }
+    main .pos-graduação .container ul li .item i img {
+        max-width: 45px;
+        max-height: 45px
+    }
+    main .pos-graduação .container ul li .item div {
+        width: 71%;
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+    main .pos-graduação .container ul li .item div h4 {
+        width: 85%;
+        font-size: 13px
+    }
+    main .pos-graduação .container ul li .item div button {
+        width: 30px;
+        height: 30px
+    }
+    main .pos-graduação .container ul li .item div button img {
+        width: 10px
+    }
+    main .pos-graduação .container ul li .desc article {
+        padding-top: 25px;
+        padding-bottom: 25px
+    }
+    main .pos-graduação .container ul li .desc article h4,
+    main .pos-graduação .container ul li .desc article p {
+        font-size: 13px
+    }
+    main .pos-graduação .container ul li .desc article p {
+        margin-top: 5px
+    }
+    main .novo-profissional {
+        padding-top: 60px
+    }
+    main .novo-profissional .container {
+        width: 80%
+    }
+    main .novo-profissional .container h2 {
+        width: 100%;
+        margin-bottom: 30px
+    }
+    main .novo-profissional .container h3 {
+        font-size: 15px;
+        margin-bottom: 20px
+    }
+    main .novo-profissional .container ul {
+        width: 80%
+    }
+    main .novo-profissional .container ul li {
+        width: 100%;
+        margin-top: 10px;
+        padding: 15px 20px;
+        text-align: center
+    }
+    main .novo-profissional .container ul li:nth-of-type(2) {
+        margin-top: 10px
+    }
+    main .novo-profissional .container ul li:nth-of-type(odd),
+    main .novo-profissional .container ul li:nth-of-type(even) {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background: linear-gradient(to right, #f4c484, #895f20)
+    }
+    main .novo-profissional .container ul li h4 {
+        width: 100%;
+        font-size: 15px
+    }
+    main .efeitos {
+        padding-top: 60px;
+        padding-bottom: 60px
+    }
+    main .efeitos .container {
+        width: 80%
+    }
+    main .efeitos .container h2 {
+        width: 100%;
+        margin-bottom: 30px
+    }
+    main .efeitos .container ul li {
+        margin-top: 40px
+    }
+    main .efeitos .container ul li i {
+        width: 40px;
+        height: 40px;
+        font-size: 21px;
+        padding-top: 3px
+    }
+    main .efeitos .container ul li div {
+        width: 35%
+    }
+    main .efeitos .container ul li div h3 {
+        font-size: 13px
+    }
+    main .pos-aprofundada {
+        padding: 30px 0px
+    }
+    main .pos-aprofundada .container {
+        width: 80%
+    }
+    main .pos-aprofundada .container h3 {
+        font-size: 18px
+    }
+    main .modulos,
+    main .faq {
+        padding-top: 80px
+    }
+    main .modulos>i,
+    main .faq>i {
+        width: 50px;
+        height: 50px;
+        top: 15px
+    }
+    main .modulos .container,
+    main .faq .container {
+        width: 80%
+    }
+    main .modulos .container ul,
+    main .faq .container ul {
+        margin-bottom: 35px
+    }
+    main .modulos .container ul li,
+    main .faq .container ul li {
+        font-size: 15px;
+        margin-top: 15px
+    }
+    main .modulos .container ul li .item,
+    main .modulos .container ul li .desc,
+    main .faq .container ul li .item,
+    main .faq .container ul li .desc {
+        width: 90%
+    }
+    main .modulos .container ul li .item h3,
+    main .faq .container ul li .item h3 {
+        display: flex;
+        gap: 3%;
+        width: 90%;
+        font-size: 15px;
+        flex-wrap: wrap;
+        line-height: 1.3;
+        padding: 15px 0px;
+        align-items: center;
+        flex-direction: row;
+        justify-content: start
+    }
+    main .modulos .container ul li .item h3 b,
+    main .faq .container ul li .item h3 b {
+        font-size: 17px
+    }
+    main .modulos .container ul li .item h3 em,
+    main .faq .container ul li .item h3 em {
+        max-width: 59%;
+        text-align: left
+    }
+    main .modulos .container ul li .item button,
+    main .faq .container ul li .item button {
+        width: 30px;
+        height: 30px
+    }
+    main .modulos .container ul li .item button i img,
+    main .faq .container ul li .item button i img {
+        width: 10px;
+        height: auto
+    }
+    main .modulos .container ul li .desc article,
+    main .faq .container ul li .desc article {
+        padding-top: 10px;
+        padding-bottom: 25px
+    }
+    main .modulos .container ul li .desc article h4,
+    main .modulos .container ul li .desc article p,
+    main .faq .container ul li .desc article h4,
+    main .faq .container ul li .desc article p {
+        font-size: 13px
+    }
+    main .modulos .container ul li .desc article p,
+    main .faq .container ul li .desc article p {
+        margin-top: 5px
+    }
+    main .modulos .container>div,
+    main .faq .container>div {
+        gap: 15px;
+        flex-direction: column
+    }
+    main .modulos .container>div .button,
+    main .faq .container>div .button {
+        width: 100%;
+        max-width: 400px;
+        font-size: 18px;
+        padding: 25px 30px 22px 30px
+    }
+    main .faq {
+        padding-top: 60px
+    }
+    main .faq .container h2 {
+        font-size: 38px;
+        margin-bottom: 20px
+    }
+    main .equipe {
+        padding-top: 60px
+    }
+    main .equipe .container {
+        width: 80%
+    }
+    main .equipe .container h2 {
+        font-size: 21px;
+        margin-bottom: 20px
+    }
+    main .equipe .container h3 {
+        font-size: 15px;
+        margin-bottom: 30px
+    }
+    main .equipe .container ul li {
+        width: 20%
+    }
+    main .equipe .container ul li h4 {
+        font-size: 11px
+    }
+    main .valor {
+        padding-top: 60px
+    }
+    main .valor>.container {
+        width: 80%
+    }
+    main .valor>.container h2 {
+        width: 100%;
+        font-size: 21px;
+        margin-bottom: 20px
+    }
+    main .valor>.container>h3 {
+        font-size: 18px;
+        margin-bottom: 30px
+    }
+    main .valor>.container>h3 strong {
+        font-size: 21px
+    }
+    main .valor>.container>h3 strong b {
+        font-size: 68px
+    }
+    main .valor>.container>h3 strong span {
+        padding-bottom: 13px
+    }
+    main .valor>.container>ul {
+        width: 100%;
+        height: auto;
+        max-width: 430px;
+        padding: 30px 20px;
+        margin-bottom: 40px
+    }
+    main .valor>.container>ul li {
+        width: 48%;
+        margin-top: 15px
+    }
+    main .valor>.container>ul li i img {
+        height: 25px
+    }
+    main .valor>.container>ul li b {
+        font-size: 11px
+    }
+    main .valor>.container>ul li:nth-of-type(even) {
+        width: 48%
+    }
+    main .valor>.container .valores {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 430px
+    }
+    main .valor>.container .valores ul {
+        gap: 25px
+    }
+    main .valor>.container .valores ul li {
+        gap: 25px;
+        width: 100%;
+        padding-bottom: 25px
+    }
+    main .valor>.container .valores ul li .title {
+        padding: 20px 20px 15px 20px
+    }
+    main .valor>.container .valores ul li .title h3 {
+        font-size: 21px
+    }
+    main .valor>.container .valores ul li .desc {
+        gap: 15px;
+        padding-bottom: 25px
+    }
+    main .valor>.container .valores ul li .desc h4 {
+        font-size: 15px
+    }
+    main .valor>.container .valores ul li .desc h4 b {
+        font-size: 21px
+    }
+    main .valor>.container .valores ul li .desc h5 {
+        font-size: 21px
+    }
+    main .valor>.container .valores ul li .desc h5 strong {
+        font-size: 52px
+    }
+    main .valor>.container .valores ul li .desc h5 strong b {
+        font-size: 21px
+    }
+    main .valor>.container .valores ul li a {
+        font-size: 21px;
+        padding: 20px 15px
+    }
+    main .valor>.container .button {
+        width: 70%;
+        font-size: 18px;
+        padding: 25px 10px 22px 10px
+    }
+    main .valor .pre-requisitos {
+        padding-top: 60px
+    }
+    main .valor .pre-requisitos .container p {
+        width: 80%;
+        font-size: 11px
+    }
+    main .valor .pre-requisitos .container p b {
+        font-size: 12px
+    }
+    main .politicas-de-privacidade {
+        padding-top: 40px;
+        padding-bottom: 40px
+    }
+    main .politicas-de-privacidade .container {
+        width: 80%;
+        gap: 25px
+    }
+    main .politicas-de-privacidade .container h1 {
+        font-size: 21px
+    }
+    main .politicas-de-privacidade .container h2 {
+        font-size: 18px
+    }
+    main .politicas-de-privacidade .container h3 {
+        font-size: 15px
+    }
+    main .politicas-de-privacidade .container p {
+        font-size: 13px
+    }
+    main .politicas-de-privacidade .container>div {
+        gap: 15px
+    }
+    main .politicas-de-privacidade .container .table div {
+        gap: 15px;
+        width: 100%;
+        padding: 20px
+    }
+    main .politicas-de-privacidade .container .table div p {
+        font-size: 13px
+    }
+    main .politicas-de-privacidade .container .table div:nth-of-type(3n-5) {
+        order: 1
+    }
+    main .politicas-de-privacidade .container .table div:nth-of-type(3n-4) {
+        order: 2
+    }
+    main .politicas-de-privacidade .container .table div:nth-of-type(3n-3) {
+        order: 3
+    }
+    main .politicas-de-privacidade .container .list {
+        gap: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px
+    }
+    main .politicas-de-privacidade .container .list li {
+        gap: 10px;
+        padding-left: 10px
+    }
+    main .politicas-de-privacidade .container .list li i {
+        width: 30px;
+        font-size: 15px
+    }
+    footer {
+        padding-top: 30px;
+        padding-bottom: 50px
+    }
+    footer .patrocinadores {
+        margin-bottom: 65px
+    }
+    footer .patrocinadores .container h2 {
+        font-size: 18px;
+        margin-bottom: 15px
+    }
+    footer .patrocinadores .container div {
+        gap: 35px;
+        width: 400px;
+        margin: 0 auto
+    }
+    footer .patrocinadores .container div a img {
+        max-height: 60px
+    }
+    footer .copyright {
+        margin-top: 45px
+    }
+    footer .copyright .container {
+        gap: 15px
+    }
+    footer .copyright .container small {
+        font-size: 13px
+    }
+    footer .copyright .container a {
+        font-size: 15px
+    }
+    footer>.container {
+        gap: 8%
+    }
+    footer>.container p {
+        width: 46%
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header .container {
+        width: 60%;
+        justify-content: center
+    }
+    header .bg {
+        width: 100%;
+        height: 85vw
+    }
+    header .bg::before {
+        left: -10%;
+        background: radial-gradient(circle at center, #223b38 0%, #223b38 15%, rgba(34, 59, 56, 0) 65%)
+    }
+    main .banner .container {
+        width: 60%;
+        flex-direction: column
+    }
+    main .banner .container div {
+        width: 100%
+    }
+    main .banner .container div .button {
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 0%
+    }
+    main .banner .container div ul {
+        gap: 15px 2%;
+        align-items: center;
+        justify-content: space-between
+    }
+    main .banner .container div ul li {
+        width: 57%;
+        margin-top: 0px
+    }
+    main .banner .container div ul li i img {
+        height: 20px
+    }
+    main .banner .container div ul li:nth-of-type(2) {
+        margin-top: 0px
+    }
+    main .banner .container div ul li:nth-of-type(even) {
+        width: 40%
+    }
+    main .banner .container div:first-of-type {
+        padding-top: 100px;
+        margin-bottom: 30px
+    }
+    main .banner .container div:first-of-type picture {
+        display: block;
+        margin-bottom: 15px
+    }
+    main .banner .container div:first-of-type picture img {
+        display: block
+    }
+    main .banner .container div:last-of-type {
+        gap: 20px;
+        width: 100%;
+        margin-right: 0%
+    }
+    main .banner .container div:last-of-type picture {
+        display: none
+    }
+    main .banner .container div:last-of-type picture img {
+        display: none
+    }
+    main .valor .container>ul {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header .container {
+        width: 80%
+    }
+    main .banner .container {
+        width: 80%
+    }
+    main .pos-graduação .container .diferenciais div {
+        width: 60%;
+        margin-top: 80px;
+        padding: 25px 10px 25px 10px
+    }
+    main .pos-graduação .container .diferenciais div:first-of-type {
+        margin-top: 0px
+    }
+    main .pos-graduação .container ul li {
+        flex-direction: column
+    }
+    main .pos-graduação .container ul li .item i,
+    main .pos-graduação .container ul li .item div {
+        width: 100%
+    }
+    main .pos-graduação .container ul li .item i {
+        min-height: 80px
+    }
+    main .pos-graduação .container ul li .item div {
+        padding: 15px 15px;
+        flex-direction: column;
+        justify-content: center
+    }
+    main .pos-graduação .container ul li .item div h4 {
+        width: 100%;
+        text-align: center
+    }
+    main .pos-graduação .container ul li .item div button {
+        width: 35px;
+        height: 35px;
+        margin-top: 20px
+    }
+    main .pos-graduação .container ul li .desc article {
+        padding-top: 15px
+    }
+    main .pos-graduação .container ul li .desc article h4,
+    main .pos-graduação .container ul li .desc article p {
+        margin-top: 10px
+    }
+    main .pos-graduação .container ul li .desc article p {
+        text-align: justify;
+        text-align-last: center
+    }
+    main .pos-graduação .bg {
+        top: 300px;
+        width: 100%
+    }
+    main .novo-profissional .container ul {
+        width: 100%
+    }
+    main .efeitos::before {
+        top: 48vw;
+        width: 80vw;
+        height: 80vw
+    }
+    main .efeitos .container ul li div {
+        width: 40%
+    }
+    main .modulos .container ul li,
+    main .faq .container ul li {
+        justify-content: center
+    }
+    main .modulos .container ul li .item,
+    main .faq .container ul li .item {
+        padding: 15px 0px
+    }
+    main .modulos .container ul li .item h3,
+    main .faq .container ul li .item h3 {
+        width: 100%;
+        padding: 0px;
+        justify-content: center
+    }
+    main .modulos .container ul li .item h3 b,
+    main .modulos .container ul li .item h3 em,
+    main .faq .container ul li .item h3 b,
+    main .faq .container ul li .item h3 em {
+        width: 100%;
+        max-width: 100%
+    }
+    main .modulos .container ul li .item h3 b,
+    main .faq .container ul li .item h3 b {
+        margin-bottom: 5px
+    }
+    main .modulos .container ul li .item h3 em,
+    main .faq .container ul li .item h3 em {
+        margin-bottom: 15px;
+        text-align: center
+    }
+    main .modulos .container ul li .item button,
+    main .faq .container ul li .item button {
+        width: 35px;
+        height: 35px;
+        margin: 0 auto
+    }
+    main .modulos .container ul li .desc article h4,
+    main .modulos .container ul li .desc article p,
+    main .faq .container ul li .desc article h4,
+    main .faq .container ul li .desc article p {
+        margin-top: 10px
+    }
+    main .modulos .container ul li .desc article p,
+    main .faq .container ul li .desc article p {
+        text-align: justify;
+        text-align-last: center
+    }
+    main .equipe .container h2,
+    main .equipe .container h3 {
+        width: 100%
+    }
+    main .equipe .container ul {
+        display: none;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 10px
+    }
+    main .equipe .container ul:first-of-type,
+    main .equipe .container ul:nth-of-type(2),
+    main .equipe .container ul:nth-of-type(3),
+    main .equipe .container ul:nth-of-type(4) {
+        margin: 0 auto;
+        margin-top: 10px
+    }
+    main .equipe .container ul:first-of-type {
+        margin-top: 0px
+    }
+    main .equipe .container ul li {
+        width: 50%;
+        margin-top: 10px
+    }
+    main .equipe .container ul li:first-of-type,
+    main .equipe .container ul li:nth-of-type(2) {
+        margin-top: 0px
+    }
+    main .equipe .container .responsive {
+        display: flex
+    }
+    main .equipe .pre-requisitos .container p {
+        width: 100%
+    }
+    main .valor .container>ul {
+        max-width: 300px
+    }
+    main .valor .container>ul li {
+        width: 100%
+    }
+    main .valor .container>ul li:nth-of-type(even) {
+        width: 100%
+    }
+    main .valor .container .valores ul {
+        margin: 0 auto;
+        max-width: 300px
+    }
+    main .politicas-de-privacidade .container .list li {
+        padding-left: 0px
+    }
+    footer {
+        padding-top: 30px;
+        padding-bottom: 40px
+    }
+    footer .patrocinadores .container h2 {
+        margin-bottom: 35px
+    }
+    footer .patrocinadores .container div {
+        gap: 20px;
+        width: 100%
+    }
+    footer .patrocinadores .container div a {
+        width: 100%
+    }
+    footer>.container {
+        gap: 16%
+    }
+    footer>.container p {
+        width: 42%
+    }
+}
+
+@media screen and (max-width: 400px) {
+    main .equipe .container ul {
+        width: 100%
+    }
+    main .valor .container ul {
+        width: 100%
+    }
+}
